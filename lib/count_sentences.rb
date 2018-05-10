@@ -16,5 +16,6 @@ class String
 
   def count_sentences
     sentences = self.scan(/[.!?]+[.!?]/).map(&:strip).count
+    return sentences
   end
 end
