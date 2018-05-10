@@ -17,5 +17,6 @@ class String
   def count_sentences
     sentences = self.split(/[[:punct:]]/)
     return sentences.length
+    binding.pry
   end
 end
